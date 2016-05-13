@@ -64,7 +64,7 @@ aside {
 
 html { 
 	-webkit-background-size: cover;
-	background: url('http://https://github.com/EndeavourWebDev/EndeavourWebDev.github.io/tree/master/assets/P1310975.JPG') no-repeat center center fixed;  
+	background: url('http://https://github.com/EndeavourWebDev/EndeavourWebDev.github.io/tree/master/assets/P1310975.JPG') no-repeat center top fixed;  
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
