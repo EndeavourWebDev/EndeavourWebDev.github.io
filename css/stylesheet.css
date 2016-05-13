@@ -1,0 +1,288 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+/* Set a background image */
+
+body {
+	line-height: 1;
+	font-size: 100%;
+	font-family: "Arial";
+	/*background-color: #f5f5f5;*/
+}
+
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+section {
+  float: left;
+}
+aside {
+  float: right;
+}
+/* End of reset settings */
+/* Start page of style settings */
+
+html { 
+  background: url(C:/Users/ANDREW/Desktop/port/root/assets/P1310975.JPG) no-repeat center center fixed;  
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+h1 {
+	font-family: 'Monoton', cursive;
+	font-size: 3.0em;
+	font-weight: none;
+	color: #000;
+}
+
+h2 {
+	font-family: 'Source Sans Pro',Tahoma, Arial, Helvetica sans-serif;
+	font-size: 1.4em;
+	font-weight: bold;
+	color: #fff;
+}
+
+h3 {
+	font-family: 'Source Sans Pro',Tahoma, Arial, Helvetica sans-serif;
+	font-size: 1.2em;
+	font-weight: bold;
+	color: #fff;
+	letter-spacing: 0.12em;
+}
+
+
+p {
+	font-family: 'Source Sans Pro',Tahoma, Arial, Helvetica sans-serif;
+	font-size: 1.2em;
+	line-height: 1.3;
+}
+
+.fixed {
+	position: fixed;
+	width: 100%;
+}
+
+.header {
+	float: left;
+	text-align: center;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	background: #DBDBDB; 
+	height: auto;
+	display: inline-block;
+	width: 100%;
+}
+
+.header h1 {
+	text-align: center;
+}
+
+.main-nav {
+	background-color: #000;
+		border-bottom: 5px;
+	border-color: #E6B715;
+	border-style: solid;
+}
+
+.main-nav  ul {
+	list-style-type: none;
+	font-weight: bold;
+	text-align: center;
+	width: 100%;
+}
+
+.main-nav  ul li { 
+	display: inline-block;
+	padding-left: 60px;
+	padding-right: 60px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	width: auto;
+	letter-spacing: 0.12em;
+}
+
+.main-nav  ul li a {
+	text-decoration: none;
+	color: #f6f6f6;
+	margin-left: 0px;
+	margin-right: 0px;
+/*a delay before the transition to the hover colour*/
+	-o-transition: color 0.5s linear;
+	-moz-transition: color 0.5s linear;
+	-khtml-transition: color 0.5s linear;
+	-webkit-transition: color 0.5s linear;
+	-ms-transition: color 0.5s linear;
+	transition: color 0.5s linear;
+}
+
+.main-nav  ul li a:hover {
+	color: #E6B715;
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+
+.content {
+	height: 600px;
+}
+
+#content-column1 {
+	float: left;
+	display: block;
+    width: 23%;
+	padding-left:0%;
+	background-color: #fff;
+}
+
+#content-column2 {
+	float: left;
+	display: block;
+    width: 54%;
+	padding-top: 250px;
+	padding-bottom: 70px;
+	text-align: justify;
+	height: 600px;
+}
+
+#content-column2 h2 {
+	padding-bottom: 0px;
+	padding-top: 5px;
+	padding-left: 5px;
+}
+
+#content-column2 p {
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-top: 20px;
+	padding-bottom: 5px;
+	color: #fff;
+}
+
+#content-column3 {
+	float: left;
+	display: block;
+    width: 23%;
+	padding-left:0%;
+}
+
+div.column {
+    float: left;
+    width: 33%;
+	
+}
+
+#footer-menu-bar {
+	clear: both;
+	background: #000;
+	height: 300px;
+	text-align: left;
+	font-size: 0.75em;
+	padding: 10px;
+	color: #fff;
+	border-top: 40px;
+	border-color: #E6B715;
+	border-style: solid;
+	overflow: auto;
+}
+
+#footer-menu-bar ul li a {
+    display: block;
+	text-align: left;
+	padding-top: 20px;
+	padding-left: 30%;
+	text-decoration: none;
+	color: #fff;
+	font-family: 'Source Sans Pro',Tahoma, Arial, Helvetica sans-serif;
+	font-size: 1.2em;
+	font-weight: bold;
+	letter-spacing: 0.15em;
+/*a delay before the transition to the hover colour*/
+	-o-transition: color 0.5s linear;
+	-moz-transition: color 0.5s linear;
+	-khtml-transition: color 0.5s linear;
+	-webkit-transition: color 0.5s linear;
+	-ms-transition: color 0.5s linear;
+	transition: color 0.5s linear;
+}
+
+#footer-menu-bar  ul li a:hover {
+	color: #E6B715;
+}
+	
+#footer-menu-bar div.column form {
+	font-weight:bold;
+}
+
+#footer-menu-bar p{
+	margin: 0px;
+	padding-top: 10px;
+	padding-left: 30%;
+	color: #cbcbc1;	
+	width: 50%;
+}
+
+#footer-menu-bar img{
+	margin-top: 20px;
+	margin-left: 30%;
+	border-style: solid;
+	border-color: #fff;
+	border-width: 5px;
+	
+}
+
+footer  p{
+	text-align: right;
+	padding-right: 10px;
+	padding-top: 0px;
+	font-size: 0.8em;
+}
+
+footer {
+	float: left;
+	height: 25px;
+	color: #fff;
+	width: 100%;
+	background-color: #000;
+	
+}
