@@ -81,14 +81,19 @@ After purchasing and reading a Dummies guide, utilising a WYSIWYG editor, and a 
 			<div class="col-sm-9"></div>
 			
 			<div class="col-sm-3">
-				<p>&copy; 2017 EndeavourWebDev. All rights reserved.</p>
+				<p>Copyright &copy;<span id="copyright-year">2021</span> EndeavourWebDev. All rights reserved.</p>
 			</div>
 			
 		</div>
 	
 </div>
 
-
+    <!-- JS year auto-updater -->
+    <script>
+      document.querySelector(
+        "#copyright-year"
+      ).innerText = new Date().getFullYear();
+    </script>
 
 </body>
   
